@@ -85,8 +85,15 @@ public class Main {
     public static void task7 () {
         System.out.println("Task 7");
 
-        int one = 1;
-        int two = 2;
-        int three = 3;
+        int one = 111;
+        int two = 44;
+        int three = 333;
+        if (one > two && one > three) {
+            System.out.println(one);
+        } else if (two > one && two > three) {
+            System.out.println(two);
+        } else if (three > one && three > two) {
+            System.out.println(three);
+        }
     }
 }
